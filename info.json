@@ -1,0 +1,11 @@
+{
+    "name": "f-a-c-t-o-r-i-o",
+    "version": "0.0.3",
+    "title": "F.A.C.T.O.R.I.O.",
+    "author": "Yuri Andriaccio",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "0.17",
+    "dependencies": ["base >= 0.17"],
+    "description": "The world has been destroyed, enraged by nuclear war. The few survivors have to keep it up and rebuild it."
+}
