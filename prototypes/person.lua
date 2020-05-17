@@ -1,6 +1,6 @@
 --person.lua
 
-require ("__base__/prototypes/entity/demo-player-animations")
+require ("__base__/prototypes/entity/demo-character-animations")
 require ("__base__/prototypes/entity/demo-gunshot-sounds")
 
 data:extend(
@@ -13,7 +13,7 @@ data:extend(
     order="a",
     
     --ENTITY
-    icon = "__base__/graphics/icons/player.png",
+    icon = "__base__/graphics/icons/character.png",
     icon_size = 32,
     --ENTITY OPT
     collision_box = {{-0.2, -0.2}, {0.2, 0.2}},
@@ -49,9 +49,9 @@ data:extend(
     {
       layers=
       {
-        playeranimations.level1.running_gun,
-        playeranimations.level1.running_gun_mask,
-        playeranimations.level1.running_gun_shadow
+        character_animations.level1.running_gun,
+        character_animations.level1.running_gun_mask,
+        character_animations.level1.running_gun_shadow
       }
     },
     
@@ -59,9 +59,9 @@ data:extend(
     {
       layers=
       {
-        playeranimations.level1.idle_gun,
-        playeranimations.level1.idle_gun_mask,
-        playeranimations.level1.idle_gun_shadow
+        character_animations.level1.idle_gun,
+        character_animations.level1.idle_gun_mask,
+        character_animations.level1.idle_gun_shadow
       }
     },
     
@@ -117,9 +117,9 @@ data:extend(
       {
         layers=
         {
-          playeranimations.level1.idle_gun,
-          playeranimations.level1.idle_gun_mask,
-          playeranimations.level1.idle_gun_shadow
+          character_animations.level1.idle_gun,
+          character_animations.level1.idle_gun_mask,
+          character_animations.level1.idle_gun_shadow
         }
       }
     },
@@ -141,7 +141,7 @@ data:extend(
     order="a",
     
     --ENTITY
-    icon = "__base__/graphics/icons/player.png",
+    icon = "__base__/graphics/icons/character.png",
     icon_size = 32,
     --ENTITY OPT
     collision_box = {{-0.2, -0.2}, {0.2, 0.2}},
@@ -177,22 +177,22 @@ data:extend(
     {
       layers=
       {
-        playeranimations.level1.running_gun,
-        playeranimations.level1.running_gun_mask,
-        playeranimations.level2addon.running_gun,
-        playeranimations.level2addon.running_gun_mask,
-        playeranimations.level1.running_gun_shadow
+        character_animations.level1.running_gun,
+        character_animations.level1.running_gun_mask,
+        character_animations.level2addon.running_gun,
+        character_animations.level2addon.running_gun_mask,
+        character_animations.level1.running_gun_shadow
       }
     },
     idle_animation =
     {
       layers=
       {
-        playeranimations.level1.idle_gun,
-        playeranimations.level1.idle_gun_mask,
-        playeranimations.level2addon.idle_gun,
-        playeranimations.level2addon.idle_gun_mask,
-        playeranimations.level1.idle_gun_shadow
+        character_animations.level1.idle_gun,
+        character_animations.level1.idle_gun_mask,
+        character_animations.level2addon.idle_gun,
+        character_animations.level2addon.idle_gun_mask,
+        character_animations.level1.idle_gun_shadow
       }
     },
     
@@ -252,11 +252,11 @@ data:extend(
       {
         layers=
         {
-          playeranimations.level1.idle_gun,
-          playeranimations.level1.idle_gun_mask,
-          playeranimations.level2addon.idle_gun,
-          playeranimations.level2addon.idle_gun_mask,
-          playeranimations.level1.idle_gun_shadow
+          character_animations.level1.idle_gun,
+          character_animations.level1.idle_gun_mask,
+          character_animations.level2addon.idle_gun,
+          character_animations.level2addon.idle_gun_mask,
+          character_animations.level1.idle_gun_shadow
         }
       },
     },
@@ -278,7 +278,7 @@ data:extend(
     order="a",
     
     --ENTITY
-    icon = "__base__/graphics/icons/player.png",
+    icon = "__base__/graphics/icons/character.png",
     icon_size = 32,
     --ENTITY OPT
     collision_box = {{-0.2, -0.2}, {0.2, 0.2}},
@@ -314,22 +314,22 @@ data:extend(
     {
       layers=
       {
-        playeranimations.level1.running_gun,
-        playeranimations.level1.running_gun_mask,
-        playeranimations.level3addon.running_gun,
-        playeranimations.level3addon.running_gun_mask,
-        playeranimations.level1.running_gun_shadow
+        character_animations.level1.running_gun,
+        character_animations.level1.running_gun_mask,
+        character_animations.level3addon.running_gun,
+        character_animations.level3addon.running_gun_mask,
+        character_animations.level1.running_gun_shadow
       }
     },
     idle_animation =
     {
       layers=
       {
-        playeranimations.level1.idle_gun,
-        playeranimations.level1.idle_gun_mask,
-        playeranimations.level3addon.idle_gun,
-        playeranimations.level3addon.idle_gun_mask,
-        playeranimations.level1.idle_gun_shadow
+        character_animations.level1.idle_gun,
+        character_animations.level1.idle_gun_mask,
+        character_animations.level3addon.idle_gun,
+        character_animations.level3addon.idle_gun_mask,
+        character_animations.level1.idle_gun_shadow
       }
     },
     
@@ -389,11 +389,11 @@ data:extend(
       {
         layers=
         {
-          playeranimations.level1.idle_gun,
-          playeranimations.level1.idle_gun_mask,
-          playeranimations.level3addon.idle_gun,
-          playeranimations.level3addon.idle_gun_mask,
-          playeranimations.level1.idle_gun_shadow
+          character_animations.level1.idle_gun,
+          character_animations.level1.idle_gun_mask,
+          character_animations.level3addon.idle_gun,
+          character_animations.level3addon.idle_gun_mask,
+          character_animations.level1.idle_gun_shadow
         }
       },
     },
@@ -415,7 +415,7 @@ data:extend(
     order="a",
     
     --ENTITY
-    icon = "__base__/graphics/icons/player.png",
+    icon = "__base__/graphics/icons/character.png",
     icon_size = 32,
     --ENTITY OPT
     collision_box = {{-0.2, -0.2}, {0.2, 0.2}},
@@ -451,9 +451,9 @@ data:extend(
     {
       layers=
       {
-        playeranimations.level1.idle,
-        playeranimations.level1.idle_mask,
-        playeranimations.level1.idle_shadow
+        character_animations.level1.idle,
+        character_animations.level1.idle_mask,
+        character_animations.level1.idle_shadow
       }
     },
     
@@ -461,9 +461,9 @@ data:extend(
     {
       layers=
       {
-        playeranimations.level1.idle_gun,
-        playeranimations.level1.idle_gun_mask,
-        playeranimations.level1.idle_gun_shadow
+        character_animations.level1.idle_gun,
+        character_animations.level1.idle_gun_mask,
+        character_animations.level1.idle_gun_shadow
       }
     },
     
@@ -519,9 +519,9 @@ data:extend(
       {
         layers=
         {
-          playeranimations.level1.idle_gun,
-          playeranimations.level1.idle_gun_mask,
-          playeranimations.level1.idle_gun_shadow
+          character_animations.level1.idle_gun,
+          character_animations.level1.idle_gun_mask,
+          character_animations.level1.idle_gun_shadow
         }
       }
     },
@@ -600,9 +600,9 @@ noArmor.attack_parameters =
   {
     layers=
     {
-      playeranimations.level1.idle_gun,
-      playeranimations.level1.idle_gun_mask,
-      playeranimations.level1.idle_gun_shadow
+      character_animations.level1.idle_gun,
+      character_animations.level1.idle_gun_mask,
+      character_animations.level1.idle_gun_shadow
     }
   },
 }
@@ -662,9 +662,9 @@ lightArmor.attack_parameters =
   {
     layers=
     {
-      playeranimations.level1.idle_gun,
-      playeranimations.level1.idle_gun_mask,
-      playeranimations.level1.idle_gun_shadow
+      character_animations.level1.idle_gun,
+      character_animations.level1.idle_gun_mask,
+      character_animations.level1.idle_gun_shadow
     }
   },
 }
@@ -724,9 +724,9 @@ heavyArmor.attack_parameters =
   {
     layers=
     {
-      playeranimations.level1.idle_gun,
-      playeranimations.level1.idle_gun_mask,
-      playeranimations.level1.idle_gun_shadow
+      character_animations.level1.idle_gun,
+      character_animations.level1.idle_gun_mask,
+      character_animations.level1.idle_gun_shadow
     }
   },
 }

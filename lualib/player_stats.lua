@@ -34,9 +34,9 @@ function player_stats.initPlayerGUI(player, ui)
   local flow = main.add{name="areabar", type = "flow", direction = "horizontal"}
   flow.style.left_margin = 10
   flow.style.top_margin = 5
-  local item = flow.add{name="rad", type = "sprite", sprite = "f-a-c-t-o-r-i-o_RadIconNone"}
-  local item = flow.add{name="chem", type = "sprite", sprite = "f-a-c-t-o-r-i-o_ChemIconNone"}
-  local item = flow.add{name="psi", type = "sprite", sprite = "f-a-c-t-o-r-i-o_PsiIconNone"}
+  local item = flow.add{name="rad", type = "sprite", sprite = "misery_RadIconNone"}
+  local item = flow.add{name="chem", type = "sprite", sprite = "misery_ChemIconNone"}
+  local item = flow.add{name="psi", type = "sprite", sprite = "misery_PsiIconNone"}
   
   player_stats.stats[player.index] = {rad = 0, chem = 0, psi = 0}
 end
@@ -73,11 +73,11 @@ function player_stats.setIcon(player, type, value)
     end
     
     if(type == "rad") then
-      frame.rad.sprite = "f-a-c-t-o-r-i-o_RadIcon"..append
+      frame.rad.sprite = "misery_RadIcon"..append
     elseif(type == "chem") then
-      frame.chem.sprite = "f-a-c-t-o-r-i-o_ChemIcon"..append
+      frame.chem.sprite = "misery_ChemIcon"..append
     elseif(type == "psi") then
-      frame.psi.sprite = "f-a-c-t-o-r-i-o_PsiIcon"..append
+      frame.psi.sprite = "misery_PsiIcon"..append
     end
   end
 end

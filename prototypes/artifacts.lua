@@ -6,7 +6,7 @@ data:extend({
     name = "artifact_test",
     sprite =
     {
-      filename = "__f-a-c-t-o-r-i-o__/graphics/items/artifact.png",
+      filename = "__misery__/graphics/items/artifact.png",
       width = 32,
       height = 32,
       priority = "medium"
@@ -28,7 +28,7 @@ data:extend({
   {
     type = "item",
     name = "artifact_test",
-    icon = "__f-a-c-t-o-r-i-o__/graphics/items/artifact.png",
+    icon = "__misery__/graphics/items/artifact.png",
     icon_size = 32,
     placed_as_equipment_result = "artifact_test",
     subgroup = "equipment",
@@ -40,7 +40,7 @@ data:extend({
     name = "artifact_shock",
     sprite =
     {
-      filename = "__f-a-c-t-o-r-i-o__/graphics/items/artifact.png",
+      filename = "__misery__/graphics/items/artifact.png",
       width = 32,
       height = 32,
       priority = "medium"
@@ -62,7 +62,7 @@ data:extend({
   {
     type = "item",
     name = "artifact_shock",
-    icon = "__f-a-c-t-o-r-i-o__/graphics/items/artifact.png",
+    icon = "__misery__/graphics/items/artifact.png",
     icon_size = 32,
     placed_as_equipment_result = "artifact_shock",
     localised_description = "artifact_shock_description",

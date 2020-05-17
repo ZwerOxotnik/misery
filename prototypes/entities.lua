@@ -19,7 +19,7 @@ data:extend({
       layers =
       {
         {
-          filename = "__f-a-c-t-o-r-i-o__/graphics/entity/silo/silo.png",
+          filename = "__misery__/graphics/entity/silo/silo.png",
           priority = "extra-high",
           frames = 1,
           width = 100,
@@ -27,7 +27,7 @@ data:extend({
           shift = util.by_pixel(0, -50),
           hr_version =
           {
-            filename = "__f-a-c-t-o-r-i-o__/graphics/entity/silo/hr-silo.png",
+            filename = "__misery__/graphics/entity/silo/hr-silo.png",
             priority = "extra-high",
             frames = 1,
             width = 200,
@@ -37,7 +37,7 @@ data:extend({
           }
         },
         {
-          filename = "__f-a-c-t-o-r-i-o__/graphics/entity/silo/silo-shadow.png",
+          filename = "__misery__/graphics/entity/silo/silo-shadow.png",
           priority = "extra-high",
           frames = 1,
           width = 208,
@@ -46,7 +46,7 @@ data:extend({
           draw_as_shadow = true,
           hr_version =
           {
-            filename = "__f-a-c-t-o-r-i-o__/graphics/entity/silo/hr-silo-shadow.png",
+            filename = "__misery__/graphics/entity/silo/hr-silo-shadow.png",
             priority = "extra-high",
             frames = 1,
             width = 415,

@@ -4,7 +4,7 @@ data:extend({
   {
     type = "capsule",
     name = "medkit",
-    icon = "__f-a-c-t-o-r-i-o__/graphics/items/medkit.png",
+    icon = "__misery__/graphics/items/medkit.png",
     icon_size = 32,
     stack_size = 5,
     capsule_action =
@@ -40,7 +40,7 @@ data:extend({
   {
     type = "capsule",
     name = "stimpack",
-    icon = "__f-a-c-t-o-r-i-o__/graphics/items/stimpack.png",
+    icon = "__misery__/graphics/items/stimpack.png",
     icon_size = 32,
     stack_size = 10,
     capsule_action =
@@ -76,7 +76,7 @@ data:extend({
   {
     type = "capsule",
     name = "suitCleaner",
-    icon = "__f-a-c-t-o-r-i-o__/graphics/items/suitCleaner.png",
+    icon = "__misery__/graphics/items/suitCleaner.png",
     icon_size = 32,
     stack_size = 5,
     capsule_action =
@@ -112,7 +112,7 @@ data:extend({
   {
     type = "capsule",
     name = "brainController",
-    icon = "__f-a-c-t-o-r-i-o__/graphics/items/brainController.png",
+    icon = "__misery__/graphics/items/brainController.png",
     icon_size = 32,
     stack_size = 5,
     capsule_action =
@@ -148,7 +148,7 @@ data:extend({
   {
     type = "capsule",
     name = "vodka",
-    icon = "__f-a-c-t-o-r-i-o__/graphics/items/vodka.png",
+    icon = "__misery__/graphics/items/vodka.png",
     icon_size = 32,
     stack_size = 5,
     capsule_action =

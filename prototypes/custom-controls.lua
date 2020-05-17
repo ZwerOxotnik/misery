@@ -10,31 +10,31 @@
 data:extend({
   {
     type = "custom-input",
-    name = "f-a-c-t-o-r-i-o_Inventory_key",
+    name = "misery_Inventory_key",
     key_sequence = "I",
     consuming = "game-only"
   },
   {
     type = "custom-input",
-    name = "f-a-c-t-o-r-i-o_PDA_main_key",
+    name = "misery_PDA_main_key",
     key_sequence = "E",
     consuming = "game-only"
   },
   {
     type = "custom-input",
-    name = "f-a-c-t-o-r-i-o_PDA_map_key",
+    name = "misery_PDA_map_key",
     key_sequence = "M",
     consuming = "game-only"
   },
   {
     type = "custom-input",
-    name = "f-a-c-t-o-r-i-o_PDA_quests_key",
+    name = "misery_PDA_quests_key",
     key_sequence = "J",
     consuming = "game-only"
   },
   {
     type = "custom-input",
-    name = "f-a-c-t-o-r-i-o_PDA_encyclopedia_key",
+    name = "misery_PDA_encyclopedia_key",
     key_sequence = "B",
     consuming = "game-only"
   },

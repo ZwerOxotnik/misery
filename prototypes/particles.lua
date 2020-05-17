@@ -19,7 +19,7 @@ data:extend({
       layers =
       {
         {
-          filename = "__f-a-c-t-o-r-i-o__/graphics/particles/electric_discharge/electric-discharge2.png",
+          filename = "__misery__/graphics/particles/electric_discharge/electric-discharge2.png",
           width = 20,
           height = 20,
           line_length = 9,
@@ -28,7 +28,7 @@ data:extend({
           scale = 2,
           hr_version =
           {
-            filename = "__f-a-c-t-o-r-i-o__/graphics/particles/electric_discharge/hr-electric-discharge2.png",
+            filename = "__misery__/graphics/particles/electric_discharge/hr-electric-discharge2.png",
             width = 43,
             height = 43,
             line_length = 9,

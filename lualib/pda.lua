@@ -26,7 +26,7 @@ pda.inventoryOpenState = {}
 function pda.initPlayerGUI(player, ui)
 
   local UI_BUTTON = ui.add{name="playerPDAbutton", direction = "vertical", type = "frame"}
-  UI_BUTTON.add{name="PDA_toggle", type="sprite-button", sprite="f-a-c-t-o-r-i-o_PDAIcon"}
+  UI_BUTTON.add{name="PDA_toggle", type="sprite-button", sprite="misery_PDAIcon"}
   UI_BUTTON.style.left_margin = -3
   
   if player.gui.center["f.a.c.t.o.r.i.o-playerPDA"] then
@@ -34,7 +34,7 @@ function pda.initPlayerGUI(player, ui)
     
   local MAIN_UI = player.gui.center.add{name="f.a.c.t.o.r.i.o-playerPDA", type = "flow", direction = "vertical"}
   local MAIN_FRAME = MAIN_UI.add{name="PDA_content", type = "frame", caption = {"PDA_top_caption", player.name}, direction = "vertical"}
-  local MAIN_FOREGROUND = MAIN_UI.add{name="PDA_image", type = "sprite", sprite = "f-a-c-t-o-r-i-o_PDA_old", direction = "vertical", ignored_by_interaction = true}
+  local MAIN_FOREGROUND = MAIN_UI.add{name="PDA_image", type = "sprite", sprite = "misery_PDA_old", direction = "vertical", ignored_by_interaction = true}
   
   pda.GUIs[player.index] = MAIN_UI
   
@@ -45,14 +45,14 @@ function pda.initPlayerGUI(player, ui)
   MAIN_FOREGROUND.style.left_margin = -96
   
   local LOCAL_FLOW = MAIN_FRAME.add{name="PDA_buttons", type = "flow", direction = "horizontal"}
-  LOCAL_FLOW.add{name="PDA_main", type="sprite-button", sprite="f-a-c-t-o-r-i-o_PDAIcon", tooltip={"PDA_main_button_tooltip"}}
-  LOCAL_FLOW.add{name="PDA_map", type="sprite-button", sprite="f-a-c-t-o-r-i-o_PDAIcon", tooltip={"PDA_map_button_tooltip"}}
-  LOCAL_FLOW.add{name="PDA_quests", type="sprite-button", sprite="f-a-c-t-o-r-i-o_PDAIcon", tooltip={"PDA_quests_button_tooltip"}}
-  LOCAL_FLOW.add{name="PDA_logs", type="sprite-button", sprite="f-a-c-t-o-r-i-o_PDAIcon", tooltip={"PDA_logs_button_tooltip"}}
-  LOCAL_FLOW.add{name="PDA_encyclopedia", type="sprite-button", sprite="f-a-c-t-o-r-i-o_PDAIcon", tooltip={"PDA_encyclopedia_button_tooltip"}}
-  local item = LOCAL_FLOW.add{name="PDA_manual", type="sprite-button", sprite="f-a-c-t-o-r-i-o_PDAIcon", tooltip={"PDA_manual_button_tooltip"}}
+  LOCAL_FLOW.add{name="PDA_main", type="sprite-button", sprite="misery_PDAIcon", tooltip={"PDA_main_button_tooltip"}}
+  LOCAL_FLOW.add{name="PDA_map", type="sprite-button", sprite="misery_PDAIcon", tooltip={"PDA_map_button_tooltip"}}
+  LOCAL_FLOW.add{name="PDA_quests", type="sprite-button", sprite="misery_PDAIcon", tooltip={"PDA_quests_button_tooltip"}}
+  LOCAL_FLOW.add{name="PDA_logs", type="sprite-button", sprite="misery_PDAIcon", tooltip={"PDA_logs_button_tooltip"}}
+  LOCAL_FLOW.add{name="PDA_encyclopedia", type="sprite-button", sprite="misery_PDAIcon", tooltip={"PDA_encyclopedia_button_tooltip"}}
+  local item = LOCAL_FLOW.add{name="PDA_manual", type="sprite-button", sprite="misery_PDAIcon", tooltip={"PDA_manual_button_tooltip"}}
   item.style.left_margin = 497
-  --flow.add{name="PDA_other", type="sprite-button", sprite="f-a-c-t-o-r-i-o_PDAIcon", tooltip="OTHER"}
+  --flow.add{name="PDA_other", type="sprite-button", sprite="misery_PDAIcon", tooltip="OTHER"}
   
   local LOCAL_FLOW = MAIN_FRAME.add{name="PDA_main", type = "flow", direction = "vertical"}
   LOCAL_FLOW.style.width = 743
