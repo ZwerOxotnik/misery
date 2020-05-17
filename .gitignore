@@ -17,7 +17,6 @@
 *.jar
 *.rar
 *.tar
-*.zip
 
 # Node & Bower & JSPM #
 #######################

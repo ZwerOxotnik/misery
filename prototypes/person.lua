@@ -1,7 +1,7 @@
 --person.lua
 
 require ("__base__/prototypes/entity/demo-character-animations")
-require ("__base__/prototypes/entity/demo-gunshot-sounds")
+local sounds = require ("__base__/prototypes/entity/demo-sounds")
 
 data:extend(
 {
@@ -84,7 +84,7 @@ data:extend(
       },
       projectile_creation_distance = 1.125,
       range = 15,
-      sound = make_light_gunshot_sounds(),
+      sound = sounds.light_gunshot,
       ammo_type =
       {
         category = "bullet",
@@ -215,7 +215,7 @@ data:extend(
       },
       projectile_creation_distance = 1.125,
       range = 15,
-      sound = make_light_gunshot_sounds(),
+      sound = sounds.light_gunshot,
       ammo_type =
       {
         category = "bullet",
@@ -352,7 +352,7 @@ data:extend(
       },
       projectile_creation_distance = 1.125,
       range = 15,
-      sound = make_light_gunshot_sounds(),
+      sound = sounds.light_gunshot,
       ammo_type =
       {
         category = "bullet",
@@ -486,7 +486,7 @@ data:extend(
       },
       projectile_creation_distance = 1.125,
       range = 15,
-      sound = make_light_gunshot_sounds(),
+      sound = sounds.light_gunshot,
       ammo_type =
       {
         category = "bullet",
@@ -563,7 +563,7 @@ noArmor.attack_parameters =
   },
   projectile_creation_distance = 1.125,
   range = 18,
-  sound = make_light_gunshot_sounds(),
+  sound = sounds.light_gunshot,
   ammo_type =
   {
     category = "bullet",
@@ -625,7 +625,7 @@ lightArmor.attack_parameters =
   },
   projectile_creation_distance = 1.125,
   range = 18,
-  sound = make_light_gunshot_sounds(),
+  sound = sounds.light_gunshot,
   ammo_type =
   {
     category = "bullet",
@@ -687,7 +687,7 @@ heavyArmor.attack_parameters =
   },
   projectile_creation_distance = 1.125,
   range = 18,
-  sound = make_light_gunshot_sounds(),
+  sound = sounds.light_gunshot,
   ammo_type =
   {
     category = "bullet",

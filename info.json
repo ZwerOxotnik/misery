@@ -1,11 +1,11 @@
 {
     "name": "misery",
-    "version": "0.0.4",
-    "title": "Misery",
+    "version": "0.0.5",
+    "title": "misery",
     "author": "Yuri Andriaccio",
     "contact": "",
     "homepage": "",
-    "factorio_version": "0.17",
-    "dependencies": ["base >= 0.17"],
+    "factorio_version": "0.18",
+    "dependencies": [],
     "description": "The world has been destroyed, enraged by nuclear war. The few survivors have to keep it up and rebuild it."
 }
